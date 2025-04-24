@@ -89,3 +89,44 @@
 .buttonReset:active {
   background-color: #a00000;
 }
+
+.navControls{
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pageIndicator {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3477bf;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.buttonNav {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3094ffd3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  }
+
+  .buttonNav:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  .buttonNav:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+  }
